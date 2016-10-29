@@ -10,7 +10,7 @@ This tool helps alleviate the issue some people are having with STO Academy that
 
 Note that this is not a full substitute for filling out the template yourself, as the automatically converted template still lacks some information. It's there just to ease the pain of migration.
 
-If you have any additional questions or suggestions, you can post them [on the issue tracker](https://github.com/Emzi0767/STO-Academy-Build-Tool/issues) or in the [reddit thread](https://redd.it/5466ul)
+If you have any additional questions or suggestions, you can post them [on the issue tracker](https://github.com/Emzi0767/STO-Academy-Build-Tool/issues) (preferred) or in the [reddit thread](https://redd.it/5466ul).
 
 ##IMPORTANT NOTE
 
