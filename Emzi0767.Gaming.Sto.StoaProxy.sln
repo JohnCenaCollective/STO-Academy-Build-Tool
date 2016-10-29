@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emzi0767.Gaming.Sto.StoaLib", "Emzi0767.Gaming.Sto.StoaLib\Emzi0767.Gaming.Sto.StoaLib.csproj", "{AB2A8906-E409-4756-AF5A-33DFF28DAB15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ext_lib", "ext_lib", "{919958A2-E4F7-4C15-B61A-CB6B61E03ADF}"
+	ProjectSection(SolutionItems) = preProject
+		ext_lib\Html2Markdown.dll = ext_lib\Html2Markdown.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emzi0767.Tools.ErrorView", "Emzi0767.Tools.ErrorView\Emzi0767.Tools.ErrorView.csproj", "{80706E46-A0C4-4E98-8AF5-E1218D305122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D172D3FF-DA37-43AD-AED7-4A098AB327F7}"
+	ProjectSection(SolutionItems) = preProject
+		changelog.txt = changelog.txt
+		license.txt = license.txt
+		notice.txt = notice.txt
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emzi0767.Gaming.Sto.Abt2", "Emzi0767.Gaming.Sto.Abt2\Emzi0767.Gaming.Sto.Abt2.csproj", "{AE9DB046-55EB-4EED-8853-14B3E2333920}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB2A8906-E409-4756-AF5A-33DFF28DAB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2A8906-E409-4756-AF5A-33DFF28DAB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2A8906-E409-4756-AF5A-33DFF28DAB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2A8906-E409-4756-AF5A-33DFF28DAB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80706E46-A0C4-4E98-8AF5-E1218D305122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80706E46-A0C4-4E98-8AF5-E1218D305122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80706E46-A0C4-4E98-8AF5-E1218D305122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80706E46-A0C4-4E98-8AF5-E1218D305122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9DB046-55EB-4EED-8853-14B3E2333920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9DB046-55EB-4EED-8853-14B3E2333920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9DB046-55EB-4EED-8853-14B3E2333920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9DB046-55EB-4EED-8853-14B3E2333920}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
