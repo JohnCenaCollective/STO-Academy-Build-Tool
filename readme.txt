@@ -1,6 +1,6 @@
 Automatic Build Converter
 by Emzi0767
-Version 2.1
+Version 2.1.0.0
 
 ------
 
@@ -83,8 +83,10 @@ HOW TO USE
    You can enter full URL if you like
 4. Press convert and wait for the program to convert 
    the build
-5. Once conversion is complete, a file save prompt 
-   will appear. Save the file.
+5. Once conversion is complete, a file save prompt   
+   or clipboard content prompt will appear,   
+   depending on your choices. Save the file or   
+   confirm content replacement.
 6. Open the saved file in a text editor, copy its 
    contents, and paste them to your build post on 
    /r/stobuilds
@@ -106,11 +108,11 @@ only way to run the application is via terminal.
 	 want to 
      cd Downloads/abt
 3. Make the converter binary executable  
-   chmod +x abt.exe
+   chmod +x abt2.exe
    * This is only required after extracting the 
      converter
 4. Run it  
-   mono abt.exe
+   mono abt2.exe
 
 Please note that first run may take a while, as Mono 
 needs to cache your fonts and do some other 
@@ -123,12 +125,13 @@ REPORTING BUGS
 Bugs happen, no software is perfect. If you happen 
 to cause the software to crash or otherwise behave 
 in an unintended manner, make sure to let me know 
-using the URL below. If the application crashes, it 
-should generate a .bug file in the directory it is 
-in. If it did, make sure to attach that file as 
-well, it will help me diagnose the issue better. If 
-possible, include the link you were trying to 
-convert, and list of steps you took that caused the 
-problem.
+using the one of the URLs below (GitHub is 
+preferred). If the application crashes, it should 
+generate a .bug file in the directory it is in. If 
+it did, make sure to attach that file as well, it 
+will help me diagnose the issue better. If possible, 
+include the link you were trying to convert, and 
+list of steps you took that caused the problem.
 
+https://github.com/Emzi0767/STO-Academy-Build-Tool/issues
 https://www.reddit.com/message/compose/?to=eMZi0767&subject=ABT%20Bug%20Report&message=I%20experienced%20a%20crash%20with%20ABT.%20Attached%20below%20is%20the%20bug%20report.%0A%0A%3Cinsert%20link%20to%20.bug%20file%20here%3E
