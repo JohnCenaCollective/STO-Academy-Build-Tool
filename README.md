@@ -1,5 +1,4 @@
-#Automatic Build Converter
-##by Emzi0767
+#Automatic Build Converter by Emzi0767
 
 ##ABOUT
 
