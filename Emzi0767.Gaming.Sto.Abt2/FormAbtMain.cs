@@ -27,7 +27,7 @@ namespace Emzi0767.Gaming.Sto.Abt2
             var v = n.Version;
 
             lVersion.Text = string.Concat("Version: ", v.ToString(), " by Emzi0767");
-            lThread.Links.Add(0, lThread.Text.Length, "https://github.com/Emzi0767/STO-Academy-Build-Tool/releases");
+            lThread.Links.Add(0, lThread.Text.Length, "https://github.com/Emzi0767/STO-Academy-Build-Tool/releases/latest");
 
             bwInit.DoWork += BwInit_DoWork;
             bwInit.RunWorkerCompleted += BwInit_RunWorkerCompleted;
