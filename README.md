@@ -39,7 +39,7 @@ Additionally, always remember to fill out as much data as possible, so that we c
 3. Enter the full build URL into the text box.
 4. Press convert and wait for the program to convert the build.
 5. Once conversion is complete, a file save prompt or clipboard content prompt will appear, depending on your choices. Save the file or confirm content replacement.
-6. Open the saved file in a text editor, copy its contents, and paste them to your build post on [/r/stobuilds](https://reddit.com/r/stobuilds).
+6. Put the result in your build post on [/r/stobuilds](https://reddit.com/r/stobuilds).
 
 ###EXAMPLE CONVERTED BUILDS
 

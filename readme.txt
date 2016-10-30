@@ -1,6 +1,6 @@
 Automatic Build Converter
 by Emzi0767
-Version 2.1.2.0
+Version 2.1.3.0
 
 ------
 
@@ -87,9 +87,7 @@ HOW TO USE
    or clipboard content prompt will appear,   
    depending on your choices. Save the file or   
    confirm content replacement.
-6. Open the saved file in a text editor, copy its 
-   contents, and paste them to your build post on 
-   /r/stobuilds
+6. Put the result in your build post on /r/stobuilds.
 
 ------
 

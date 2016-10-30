@@ -346,7 +346,7 @@ namespace Emzi0767.Gaming.Sto.Abt2.Utility
                 this.MDW.WriteRule();
             }
 
-            this.MDW.WriteParagraph(string.Format("*Above was translated automatically from http://skillplanner.stoacademy.com/{0} using [Automatic Build Converter](https://www.reddit.com/r/stobuilds/comments/5466ul/automatic_sto_academy_build_converter/), version {1}. Questions and problems related to output (but not the build) are to be directed at [Emzi](https://www.reddit.com/message/compose/?to=eMZi0767&subject=STO+Academy+Converter).*", build.ID, this.GetAbtVersion()));
+            this.MDW.WriteParagraph(string.Format("*Above was translated automatically from http://skillplanner.stoacademy.com/{0} using [Automatic Build Converter](https://www.reddit.com/r/stobuilds/comments/5466ul/automatic_sto_academy_build_converter/), version {1}. Questions and problems related to output (but not the build) are to be directed at [Emzi0767](https://www.reddit.com/message/compose/?to=eMZi0767&subject=STO+Academy+Converter).*", build.ID, this.GetAbtVersion()));
         }
 
         private void WriteBuildGround(StoAcademyBuild build, StoAcademyTools tools)
@@ -605,7 +605,7 @@ namespace Emzi0767.Gaming.Sto.Abt2.Utility
                 this.MDW.WriteRule();
             }
 
-            this.MDW.WriteParagraph(string.Format("*Above was translated automatically from http://skillplanner.stoacademy.com/{0} using [Automatic Build Converter](https://www.reddit.com/r/stobuilds/comments/5466ul/automatic_sto_academy_build_converter/), version {1}. Questions and problems related to output (but not the build) are to be directed at [Emzi](https://www.reddit.com/message/compose/?to=eMZi0767&subject=STO+Academy+Converter).*", build.ID, this.GetAbtVersion()));
+            this.MDW.WriteParagraph(string.Format("*Above was translated automatically from http://skillplanner.stoacademy.com/{0} using [Automatic Build Converter](https://www.reddit.com/r/stobuilds/comments/5466ul/automatic_sto_academy_build_converter/), version {1}. Questions and problems related to output (but not the build) are to be directed at [Emzi0767](https://www.reddit.com/message/compose/?to=eMZi0767&subject=STO+Academy+Converter).*", build.ID, this.GetAbtVersion()));
         }
 
         private IEnumerable<StoAcademySkill> ReduceSkills(IEnumerable<StoAcademySkill> skill_tree)
