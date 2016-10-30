@@ -76,12 +76,12 @@
     <Compile Include="Data\Enums\DoffSpecialization.cs" />
     <Compile Include="Data\Enums\TraitType.cs" />
     <Compile Include="Data\StoAcademyAbility.cs" />
-    <Compile Include="Data\StoAcademyBOFF.cs" />
-    <Compile Include="Data\StoAcademyBOFFStation.cs" />
+    <Compile Include="Data\StoAcademyBoff.cs" />
+    <Compile Include="Data\StoAcademyBoffStation.cs" />
     <Compile Include="Data\StoAcademyBuild.cs" />
     <Compile Include="Data\StoAcademyBuildItem.cs" />
-    <Compile Include="Data\StoAcademyBuildDOFF.cs" />
-    <Compile Include="Data\StoAcademyDOFF.cs" />
+    <Compile Include="Data\StoAcademyBuildDoff.cs" />
+    <Compile Include="Data\StoAcademyDoff.cs" />
     <Compile Include="Data\StoAcademyFusedItem.cs" />
     <Compile Include="Data\StoAcademyItem.cs" />
     <Compile Include="Data\StoAcademyShip.cs" />
