@@ -6,15 +6,15 @@ Version 2.1.1.0
 
 ABOUT
 
-A small tool which automatically converts STO Academy 
-builds into /r/stobuilds templates.
+A small tool, which automatically converts STO 
+Academy builds into /r/stobuilds templates.
 
 This tool helps alleviate the issue some people are 
 having with STO Academy that makes them unable to 
-load it, and removes the inconvenience that having 
-to click through various tabs and icons to see 
-complete build information. It also enables easier 
-build maintenance.
+load it, and removes the inconvenience of having to 
+click through various tabs and icons to see complete 
+build information. It also enables easier build 
+maintenance.
 
 Note that this is not a full substitute for filling 
 out the template yourself, as the automatically 

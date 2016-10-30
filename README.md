@@ -3,9 +3,9 @@
 
 ##ABOUT
 
-A small tool which automatically converts STO Academy builds into [/r/stobuilds](https://reddit.com/r/stobuilds) templates.
+A small tool, which automatically converts STO Academy builds into [/r/stobuilds](https://reddit.com/r/stobuilds) templates.
 
-This tool helps alleviate the issue some people are having with STO Academy that makes them unable to load it, and removes the inconvenience that having to click through various tabs and icons to see complete build information. It also enables easier build maintenance.
+This tool helps alleviate an issue some people are having with STO Academy that makes them unable to load it, and removes the inconvenience of having to click through various tabs and icons to see complete build information. It also enables easier build maintenance.
 
 Note that this is not a full substitute for filling out the template yourself, as the automatically converted template still lacks some information. It's there just to ease the pain of migration.
 
