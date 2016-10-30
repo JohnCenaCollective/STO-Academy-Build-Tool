@@ -1,6 +1,10 @@
 Automatic Build Converter changelog
 ------
 
+2.1.2.0 [Updated: 2016-10-30]
+- NEW: Updated error viewer to 1.1.1.0
+- FIX: Updated the error viewer to point to GitHub
+
 2.1.1.0 [Updated: 2016-10-30]
 - FIX: Updated the update link to point to GitHub
 

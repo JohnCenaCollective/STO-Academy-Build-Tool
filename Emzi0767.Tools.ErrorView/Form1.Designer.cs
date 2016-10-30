@@ -71,12 +71,12 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 115);
+            this.textBox1.Location = new System.Drawing.Point(12, 102);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(617, 215);
+            this.textBox1.Size = new System.Drawing.Size(617, 228);
             this.textBox1.TabIndex = 14;
             this.textBox1.Text = "Loading...";
             this.textBox1.WordWrap = false;
@@ -86,11 +86,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(9, 86);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(611, 26);
+            this.label4.Size = new System.Drawing.Size(344, 13);
             this.label4.TabIndex = 13;
-            this.label4.Text = "Please upload the above file to a website like Dropbox or Google Drive and send t" +
-    "he link to me using the button below. Here\'s a \r\npreview of the report\'s content" +
-    "s:";
+            this.label4.Text = "When you press submit, remember to attach the above file to the report.";
             // 
             // label2
             // 

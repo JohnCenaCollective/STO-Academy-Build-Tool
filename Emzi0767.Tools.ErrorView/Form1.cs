@@ -10,7 +10,7 @@ namespace Emzi0767.Tools.ErrorView
 {
     public partial class Form1 : Form
     {
-        private const string ERRLINK = "https://www.reddit.com/message/compose/?to=eMZi0767&subject=ABT%20Bug%20Report&message=I%20experienced%20a%20crash%20with%20ABT.%20Attached%20below%20is%20the%20bug%20report.%0A%0A%3Cinsert%20link%20to%20.bug%20file%20here%3E";
+        private const string ERRLINK = "https://github.com/Emzi0767/STO-Academy-Build-Tool/issues/new";
         private FileInfo file = null;
 
         public Form1(FileInfo fi)
