@@ -41,6 +41,11 @@ Additionally, always remember to fill out as much data as possible, so that we c
 5. Once conversion is complete, a file save prompt or clipboard content prompt will appear, depending on your choices. Save the file or confirm content replacement.
 6. Open the saved file in a text editor, copy its contents, and paste them to your build post on [/r/stobuilds](https://reddit.com/r/stobuilds).
 
+###EXAMPLE CONVERTED BUILDS
+
+* [Space](https://www.reddit.com/r/eMZi0767/wiki/abt_samples/space)
+* [Ground](https://www.reddit.com/r/eMZi0767/wiki/abt_samples/ground)
+
 ###RUNNING ON MAC OS
 
 Since I don't own a Mac, and I can't package the application as a nice and nifty .app package, the only way to run the application is via terminal.
