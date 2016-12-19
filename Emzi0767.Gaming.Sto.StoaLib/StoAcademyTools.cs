@@ -803,13 +803,13 @@ namespace Emzi0767.Gaming.Sto.StoaLib
 
             var desc = (string)json["description"];
             var notes = (string)json["notes"];
-
-            var items_json = JObject.Parse(items_rjson);
-            var boffs_json = JObject.Parse(boffs_rjson);
-            var doffs_json = JObject.Parse(doffs_rjson);
-            var trts_json = JObject.Parse(trts_rjson);
-            var skls_json = JArray.Parse(skls_rjson);
-            var skus_json = JArray.Parse(skus_rjson);
+            
+            var items_json = !string.IsNullOrWhiteSpace(items_rjson) ? JObject.Parse(items_rjson) : new JObject();
+            var boffs_json = !string.IsNullOrWhiteSpace(boffs_rjson) ? JObject.Parse(boffs_rjson) : new JObject();
+            var doffs_json = !string.IsNullOrWhiteSpace(doffs_rjson) ? JObject.Parse(doffs_rjson) : new JObject();
+            var trts_json = !string.IsNullOrWhiteSpace(trts_rjson) ? JObject.Parse(trts_rjson) : new JObject();
+            var skls_json = !string.IsNullOrWhiteSpace(skls_rjson) ? JArray.Parse(skls_rjson) : new JArray();
+            var skus_json = !string.IsNullOrWhiteSpace(skus_rjson) ? JArray.Parse(skus_rjson) : new JArray();
 
             var itemmaps = new Dictionary<string, int>()
                 {
