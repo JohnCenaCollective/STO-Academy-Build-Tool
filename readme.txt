@@ -1,6 +1,7 @@
 Automatic Build Converter
 by Emzi0767
-Version 2.1.4.0
+updated by JohnCenaPTF
+Version 2.2.0.0
 
 ------
 
@@ -22,8 +23,8 @@ converted template still lacks some information.
 It's there just to ease the pain of migration.
 
 If you have any additional questions or suggestions, 
-you can post them in the reddit thread here: 
-https://redd.it/5466ul
+you can post them on the issue tracker here: 
+https://github.com/JohnCenaCollective/STO-Academy-Build-Tool/issues
 
 ------
 
@@ -33,9 +34,9 @@ Please don't alter the output from the application.
 While certain parts of it may seem unimportant or 
 irrelevant to you, they contain important 
 information, not just for people who may try to help 
-you, but also for me as the application's developer. 
+you, but also for us as the application's maintainers. 
 In the event of there being problems with the 
-output, I won't be able to diagnose the issue if the 
+output, we won't be able to diagnose the issue if the 
 output has been altered. You can add a couple notes 
 before the output, just don't modify the output 
 itself.
@@ -53,12 +54,10 @@ SYSTEM REQUIREMENTS
      Service Pack 2
    * I will provide support only for the following  
      Windows versions:
-      * Windows 7 Service Pack 1 (32- and 64-bit)
-      * Windows 8.1 Update (32- and 64-bit)
-      * Windows 10 Anniversary Update (32- and 64-bit)
-   * Microsoft .NET Framework, version 4.5.2:  
-     https://www.microsoft.com/en-us/download/details.aspx?id=42643  
-     This is installed by default on Windows 8.1 and 10
+      * Windows 10 Anniversary Update (64-bit)
+   * Microsoft .NET Framework, version 4.6.2:  
+     https://www.microsoft.com/en-us/download/details.aspx?id=53345
+     This is installed by default on Windows 10
 * GNU/Linux, Mac OS, and other *NIX systems:
    * Mono, version 4.x or newer  
       * Installing on GNU/Linux:  
@@ -93,7 +92,7 @@ HOW TO USE
 
 RUNNING ON MAC OS
 
-Since I don't own a Mac, and I can't package the 
+Since we don't own a Mac, and we can't package the 
 application as a nice and nifty .app package, the 
 only way to run the application is via terminal.
 
@@ -122,14 +121,12 @@ REPORTING BUGS
 
 Bugs happen, no software is perfect. If you happen 
 to cause the software to crash or otherwise behave 
-in an unintended manner, make sure to let me know 
-using the one of the URLs below (GitHub is 
-preferred). If the application crashes, it should 
-generate a .bug file in the directory it is in. If 
-it did, make sure to attach that file as well, it 
-will help me diagnose the issue better. If possible, 
+in an unintended manner, make sure to let us know 
+using the the URL below. If the application crashes, 
+it should generate a .bug file in the directory it is 
+in. If it did, make sure to attach that file as well, 
+it will help us diagnose the issue better. If possible, 
 include the link you were trying to convert, and 
 list of steps you took that caused the problem.
 
-https://github.com/Emzi0767/STO-Academy-Build-Tool/issues
-https://www.reddit.com/message/compose/?to=eMZi0767&subject=ABT%20Bug%20Report&message=I%20experienced%20a%20crash%20with%20ABT.%20Attached%20below%20is%20the%20bug%20report.%0A%0A%3Cinsert%20link%20to%20.bug%20file%20here%3E
+https://github.com/JohnCenaCollective/STO-Academy-Build-Tool/issues

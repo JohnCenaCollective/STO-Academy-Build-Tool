@@ -1,4 +1,4 @@
-#Automatic Build Converter by Emzi0767
+#Automatic Build Converter by Emzi0767, updated by JohnCenaPTF
 
 ##ABOUT
 
@@ -8,11 +8,11 @@ This tool helps alleviate an issue some people are having with STO Academy that 
 
 Note that this is not a full substitute for filling out the template yourself, as the automatically converted template still lacks some information. It's there just to ease the pain of migration.
 
-If you have any additional questions or suggestions, you can post them [on the issue tracker](https://github.com/Emzi0767/STO-Academy-Build-Tool/issues) (preferred) or in the [reddit thread](https://redd.it/5466ul).
+If you have any additional questions or suggestions, you can post them [on the issue tracker](https://github.com/JohnCenaCollective/STO-Academy-Build-Tool/issues).
 
 ##IMPORTANT NOTE
 
-Please don't alter the output from the application. While certain parts of it may seem unimportant or irrelevant to you, they contain important information, not just for people who may try to help you, but also for me as the application's developer. In the event of there being problems with the output, I won't be able to diagnose the issue if the output has been altered. You can add a couple notes before the output, just don't modify the output itself.
+Please don't alter the output from the application. While certain parts of it may seem unimportant or irrelevant to you, they contain important information, not just for people who may try to help you, but also for us as the application's maintainers. In the event of there being problems with the output, we won't be able to diagnose the issue if the output has been altered. You can add a couple notes before the output, just don't modify the output itself.
 
 Additionally, always remember to fill out as much data as possible, so that we can provide assistance based on your actual setup.
 
@@ -20,17 +20,15 @@ Additionally, always remember to fill out as much data as possible, so that we c
 
 * **Windows**:
    * Minimum required Windows version: Windows Vista Service Pack 2.
-   * I will provide support only for the following Windows versions:
-      * Windows 7 Service Pack 1 (32- and 64-bit).
-      * Windows 8.1 Update (32- and 64-bit).
-      * Windows 10 Anniversary Update (32- and 64-bit).
-   * [Microsoft .NET Framework, version 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42643). This is installed by default on Windows 8.1 and 10.
+   * We will provide support only for the following Windows versions:
+      * Windows 10 Anniversary Update (64-bit).
+   * [Microsoft .NET Framework, version 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53345). This is installed by default on Windows 10.
 * **GNU/Linux, Mac OS, and other \*NIX systems**:
    * Mono, version 4.x or newer
       * [Installing on GNU/Linux](http://www.mono-project.com/docs/getting-started/install/linux/).
       * [Installing on Mac OS](http://www.mono-project.com/docs/getting-started/install/mac/).
       * [Compiling from sources](http://www.mono-project.com/docs/compiling-mono/).
-   * Minimum required Mono version is 3.2.x, however I will only provide support for 4.x
+   * Minimum required Mono version is 3.2.x, however We will only provide support for 4.x
 
 ##HOW TO USE
 
@@ -48,7 +46,7 @@ Additionally, always remember to fill out as much data as possible, so that we c
 
 ###RUNNING ON MAC OS
 
-Since I don't own a Mac, and I can't package the application as a nice and nifty .app package, the only way to run the application is via terminal.
+Since we don't own a Mac, and we can't package the application as a nice and nifty .app package, the only way to run the application is via terminal.
 
 1. Open Terminal
 2. Navigate to the directory where you extracted the converter (`cd path`).
@@ -61,4 +59,4 @@ Please note that first run may take a while, as Mono needs to cache your fonts a
 
 ##REPORTING BUGS
 
-Bugs happen, no software is perfect. If you happen to cause the software to crash or otherwise behave in an unintended manner, make sure to let me know using via [the issue tracker](https://github.com/Emzi0767/STO-Academy-Build-Tool/issues) (preferred) or [reddit PM](https://www.reddit.com/message/compose/?to=eMZi0767&subject=ABT%20Bug%20Report&message=I%20experienced%20a%20crash%20with%20ABT.%20Attached%20below%20is%20the%20bug%20report.%0A%0A%3Cinsert%20link%20to%20.bug%20file%20here%3E). If the application crashes, it should generate a .bug file in the directory it is in. If it did, make sure to attach that file as well, it will help me diagnose the issue better. If possible, include the link you were trying to convert, and list of steps you took that caused the problem.
+Bugs happen, no software is perfect. If you happen to cause the software to crash or otherwise behave in an unintended manner, make sure to let me know using via [the issue tracker](https://github.com/JohnCenaCollective/STO-Academy-Build-Tool/issues). If the application crashes, it should generate a .bug file in the directory it is in. If it did, make sure to attach that file as well, it will help us diagnose the issue better. If possible, include the link you were trying to convert, and list of steps you took that caused the problem.

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB2A8906-E409-4756-AF5A-33DFF28DAB15}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Emzi0767.StoAcademyTools.Library</RootNamespace>
+    <AssemblyName>Emzi0767.StoAcademyTools.Library</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Attributes\DisplayAsAttribute.cs" />
+    <Compile Include="Data\Enums\BuildDoffRarity.cs" />
+    <Compile Include="Data\Enums\SkillUnlockCareer.cs" />
+    <Compile Include="Data\Enums\BoffCareer.cs" />
+    <Compile Include="Data\Enums\BoffRank.cs" />
+    <Compile Include="Data\Enums\BoffStationRank.cs" />
+    <Compile Include="Data\Enums\BoffStationCareer.cs" />
+    <Compile Include="Data\Enums\BoffSpecialization.cs" />
+    <Compile Include="Data\Enums\BuildItemType.cs" />
+    <Compile Include="Data\Enums\BuildSpecializationSecondary.cs" />
+    <Compile Include="Data\Enums\BuildSpecializationPrimary.cs" />
+    <Compile Include="Data\Enums\BoffStationSpecialization.cs" />
+    <Compile Include="Data\Enums\ItemRarity.cs" />
+    <Compile Include="Data\Enums\ShipFactions.cs" />
+    <Compile Include="Data\Enums\ShipType.cs" />
+    <Compile Include="Data\Enums\SkillRank.cs" />
+    <Compile Include="Data\Enums\SkillRegion.cs" />
+    <Compile Include="Data\Enums\SkillCareer.cs" />
+    <Compile Include="Data\Enums\BuildFaction.cs" />
+    <Compile Include="Data\Enums\BuildCareer.cs" />
+    <Compile Include="Data\Enums\SkillUnlockPointCount.cs" />
+    <Compile Include="Data\Enums\TraitFaction.cs" />
+    <Compile Include="Data\Enums\TraitCareer.cs" />
+    <Compile Include="Data\Enums\AbilityCareer.cs" />
+    <Compile Include="Data\Enums\AbilityRegion.cs" />
+    <Compile Include="Data\Enums\AbilityType.cs" />
+    <Compile Include="Data\Enums\AbilityRank.cs" />
+    <Compile Include="Data\Enums\DoffRegion.cs" />
+    <Compile Include="Data\Enums\DoffSpecialization.cs" />
+    <Compile Include="Data\Enums\TraitType.cs" />
+    <Compile Include="Data\StoAcademyAbility.cs" />
+    <Compile Include="Data\StoAcademyBoff.cs" />
+    <Compile Include="Data\StoAcademyBoffStation.cs" />
+    <Compile Include="Data\StoAcademyBuild.cs" />
+    <Compile Include="Data\StoAcademyBuildItem.cs" />
+    <Compile Include="Data\StoAcademyBuildDoff.cs" />
+    <Compile Include="Data\StoAcademyDoff.cs" />
+    <Compile Include="Data\StoAcademyFusedItem.cs" />
+    <Compile Include="Data\StoAcademyItem.cs" />
+    <Compile Include="Data\StoAcademyShip.cs" />
+    <Compile Include="Data\StoAcademySkill.cs" />
+    <Compile Include="Data\StoAcademySkillUnlock.cs" />
+    <Compile Include="Data\StoAcademyTier.cs" />
+    <Compile Include="Data\StoAcademyTrait.cs" />
+    <Compile Include="Data\StoaData.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="L.cs" />
+    <Compile Include="StoAcademyInterface.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
