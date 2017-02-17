@@ -67,12 +67,20 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Emzi0767.StoAcademyTools.Library\Emzi0767.StoAcademyTools.Library.csproj">
       <Project>{ab2a8906-e409-4756-af5a-33dff28dab15}</Project>
       <Name>Emzi0767.StoAcademyTools.Library</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
+    <Content Include="notice.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="sample_configs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

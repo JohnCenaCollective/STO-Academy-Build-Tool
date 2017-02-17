@@ -729,7 +729,7 @@ namespace Emzi0767.StoAcademyTools.Library
                         BOFFStations = bsts
                     });
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     continue;
                 }

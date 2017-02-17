@@ -127,7 +127,7 @@
             this.groupBox2.Controls.Add(this.cbClipboard);
             this.groupBox2.Location = new System.Drawing.Point(268, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(206, 74);
+            this.groupBox2.Size = new System.Drawing.Size(206, 70);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Output Options";
@@ -166,11 +166,11 @@
             // lVersion
             // 
             this.lVersion.AutoSize = true;
-            this.lVersion.Location = new System.Drawing.Point(268, 98);
+            this.lVersion.Location = new System.Drawing.Point(268, 85);
             this.lVersion.Name = "lVersion";
-            this.lVersion.Size = new System.Drawing.Size(48, 13);
+            this.lVersion.Size = new System.Drawing.Size(72, 26);
             this.lVersion.TabIndex = 3;
-            this.lVersion.Text = "Version: ";
+            this.lVersion.Text = "Version: \r\nmaintained by";
             // 
             // lThread
             // 

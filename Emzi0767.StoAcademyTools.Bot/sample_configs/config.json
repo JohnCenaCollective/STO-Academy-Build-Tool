@@ -1,0 +1,5 @@
+{
+	"use_discord": false,
+	"discord_ip": "127.0.0.1",
+	"discord_port": 64000
+}

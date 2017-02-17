@@ -26,7 +26,7 @@ namespace Emzi0767.StoAcademyTools.Converter
             var n = a.GetName();
             var v = n.Version;
 
-            lVersion.Text = string.Concat("Version: ", v.ToString(), " by Emzi0767, maintained by JohnCenaPTF");
+            lVersion.Text = string.Concat("Version: ", v.ToString(), " by Emzi0767, \nmaintained by JohnCenaPTF");
             lThread.Links.Add(0, lThread.Text.Length, "https://github.com/JohnCenaCollective/STO-Academy-Build-Tool/releases/latest");
 
             bwInit.DoWork += BwInit_DoWork;
